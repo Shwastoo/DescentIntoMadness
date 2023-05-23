@@ -1,0 +1,26 @@
+﻿╔═════════════════════════════════════════════════════════════════════════════════╗
+║ Items:                                                                          ║
+║                                                                                 ║
+║ ● Food Pack - Gives you 3 food.                                                 ║
+║ ● Vitamins - +100 max HP.                                                       ║
+║ ● Medication - +100 max Sanity.                                                 ║
+║ ● Compass - Exit room is visibile on minimap (colored red).                     ║
+║ ● Cave Map - Cave layout is fully visible on minimap.                           ║
+║ ● Coffee - You have more time to press correct button while fighting monkeys.   ║
+║ ● Spongy Gloves - You no longer take damage while running into rocks (you still ║
+║   lose sanity though).                                                          ║
+║ ● Gas Mask - You no longer suffer damage from mushrooms in Ogre's Swamps.       ║
+║ ● Holy Cross - Your sanity in Haunted Peaks drops normally.                     ║
+║ ● Spike Boots - You move normally in Icey Dungeons.                             ║
+║ ● Flashlight - Your sight in Power Stations is normal.                          ║
+║ ● Liquorice - You won't instantly eat food in Candy Caves, thanks to this       ║
+║   disgusting thing.                                                             ║
+║ ● Vomit Pills - You throw up alcohol in Mother Russia Lands, which stop you from║
+║   being drunk.                                                                  ║
+║ ● Rotten Bananas - Inedible, however they lure more monkeys into caves (this    ║
+║   also make monkeys appear in Abandoned Factories).                             ║
+║ ● Shovel - You will find at least one food in African Deserts.                  ║
+║ ● Devil Deal - You can see a minimap in Hells On Earth, but you lose more sanity║
+║                                                                                 ║
+║                                                                                 ║
+╚═════════════════════════════════════════════════════════════════════════════════╝

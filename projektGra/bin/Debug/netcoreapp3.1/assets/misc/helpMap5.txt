@@ -1,0 +1,26 @@
+﻿╔═══════════════════════════════════════════════════╦═════════════════════════════╗
+║                                                   ║          Inventory          ║
+║   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓   ║                             ║
+║   ▓▒ ▒▒▒     ▒     ▒    ▒▒ ▒▒  ▓   ▓          ▓   ║ Controls:                   ║
+║   ▓  ▒ ▒  ▒      ▒▒ ▒   ▒ ▒    ▓   ▓          ▓   ║ Arrow keys - movement       ║
+║   ▓ ▒   ▒   ▒@       ▒  ▒▒▒▒▒▒ ▓   ▓     █    ▓   ║ C - consume food            ║
+║   ▓▒   ▒▒▒      ▒▒    ▒       ▒▓   ▓     ░    ▓   ║ H - help                    ║
+║   ▓      ▒ ▒▒    Ω       ▒ ▒   ▓   ▓     ░    ▓   ║ W,S,A,D - fighting monkeys  ║
+║   ▓ ▒▒      ▒      ▒▒    ▒  ▒  ▓   ▓     ░    ▓   ║           (more later)      ║
+║   ▓       ▒ ▒   ▒     ▒        ▓   ▓          ▓   ║ To collect food, just walk  ║
+║   ▓▒  ▒ ▒  ▒♣▒▒    ℗ ▒     ▒   ▓   ▓          ▓   ║ into it. Same thing for     ║
+║   ▓    ▒ ▒▒▒ ▒ ▒ ▒  ▒▒▒  ▒▒  ▒ ▓   ▓          ▓   ║ item crates (more on items  ║
+║   ▓▒                ▒ ▒ ▒  ◙   ▓   ▓          ▓   ║ later). In every cave there ║
+║   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓══▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓   ║ is only one exit (usually   ║
+║                                                   ║ it's in the farthest room   ║
+║                                                   ║ from starting room in       ║
+╠═══════════════════════════════════════════════════╣ straight line). Again, don't║
+║  ♥ ■■■■■■■■■■■■■■■■■■■■  300/500   Food: 0        ║ walk into rocks or you will ║
+║  ☻ ■■■■■■■■■■■■■■■■■■■■  458/500                  ║ hurt yourself. Walk into    ║
+╠═══════════════════════════════════════════════════╣ doors to go to another room.║
+║ Here you will see various informations about what ║                             ║
+║ happens in the game                               ║ Be careful not to press too ║
+║                                                   ║ much buttons quickly!!!     ║
+║                                                   ║                             ║
+║                                                   ║ Press any key to proceed    ║
+╚═══════════════════════════════════════════════════╩═════════════════════════════╝

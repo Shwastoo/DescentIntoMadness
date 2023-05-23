@@ -1,0 +1,26 @@
+﻿╔═══════════════════════════════════════════════════╦═════════════════════════════╗
+║                                                   ║          Inventory          ║
+║                         ┌─────∆─────┐             ║                             ║
+║                         │           │             ║ Sanity drops every time you ║
+║             ┌─────▲─────┤           │             ║ make a move. If your sanity ║
+║             │           └─────∆─────┼─────∆─────  ║ drops to 0, you will start  ║
+║             │                       │             ║ losing HP every turn. Also  ║
+║       ▼     │                       │             ║ your max HP and max Sanity  ║
+║       ∆─────┼─────▲───────────∆─────┘             ║ values will shrink.         ║
+║       ⌂     │                                     ║ You can stop that by eating ║
+║             │                                     ║ food, which gives you both  ║
+║             │           ┌─────∆─────┬─────∆─────  ║ HP and Sanity.              ║
+║             └─────▲─────┤           │             ║ However, eating food has    ║
+║                         │           │             ║ double effect on your stats ║
+║                         └─────∆─────┘             ║ if eaten outside (while on  ║
+║                                                   ║ level selection screen), so ║
+╠═══════════════════════════════════════════════════╣ keep that in mind.          ║
+║  ♥ ■■■■■■■■■■■■■■■■■■■■  500/500   Food: 1        ║                             ║
+║  ☻ ■■■■■■■■■■■■■■■■■■■■  500/500   C to consume   ║ Press any key to proceed    ║
+╠═══════════════════════════════════════════════════╣                             ║
+║  Cave type                                        ║                             ║
+║  Height: XXXm     Details:                        ║                             ║
+║  (You want to                                     ║                             ║
+║   get to 0m)      Describes level details briefly ║                             ║
+║                                                   ║                             ║
+╚═══════════════════════════════════════════════════╩═════════════════════════════╝

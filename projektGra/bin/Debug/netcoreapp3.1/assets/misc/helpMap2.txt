@@ -1,0 +1,26 @@
+﻿╔═══════════════════════════════════════════════════╦═════════════════════════════╗
+║                                                   ║          Inventory          ║
+║                         ┌─────∆─────┐             ║                             ║
+║                         │           │             ║ You may take various paths. ║
+║             ┌─────▲─────┤           │             ║ Each time you go to another ║
+║             │           └─────∆─────┼─────∆─────  ║ cave you must have at least ║
+║             │                       │             ║ 1 food or you will lose     ║
+║       ▼     │                       │             ║ health. It will be consumed ║
+║       ∆─────┼─────▲───────────∆─────┘             ║ automatically. Food can be  ║
+║       ⌂     │                                     ║ found in caves. Besides     ║
+║             │                                     ║ that, you can also lose     ║
+║             │           ┌─────∆─────┬─────∆─────  ║ health by:                  ║
+║             └─────▲─────┤           │             ║ ● Running into rocks        ║
+║                         │           │             ║ ● Losing fights with        ║
+║                         └─────∆─────┘             ║   monkeys                   ║
+║                                                   ║ ● Dropping your sanity to 0 ║
+╠═══════════════════════════════════════════════════╣   (more on sanity later)    ║
+║  ♥ ■■■■■■■■■■■■■■■■■■■■  500/500   Food: 1        ║ ● Other mysterious sources  ║
+║  ☻ ■■■■■■■■■■■■■■■■■■■■  500/500   C to consume   ║                             ║
+╠═══════════════════════════════════════════════════╣ Press any key to proceed    ║
+║  Cave type                                        ║                             ║
+║  Height: XXXm     Details:                        ║                             ║
+║  (You want to                                     ║                             ║
+║   get to 0m)      Describes level details briefly ║                             ║
+║                                                   ║                             ║
+╚═══════════════════════════════════════════════════╩═════════════════════════════╝

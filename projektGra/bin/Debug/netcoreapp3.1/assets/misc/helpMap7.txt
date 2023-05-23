@@ -1,0 +1,26 @@
+﻿╔═════════════════════════════════════════════════════════════════════════════════╗
+║ Cave types:                                                                     ║
+║                                                                                 ║
+║ ● Totally Regular Mountain Cave - Nothing special.                              ║
+║ ● Candy Cave - Food replaced by candies, that you eat instantly.                ║
+║ ● Mother Russia Land - Controls are swapped (right is left, up is down, etc.).  ║
+║ ● Ogre Swamp - Rocks replaced by mushrooms, you may walk through them, but you  ║
+║   suffer greater damage than from running into a rock.                          ║
+║ ● African Desert - It is possible that you won't find any food here.            ║
+║ ● Haunted Peak - Your sanity loss is doubled, so you better finish it quickly.  ║
+║ ● Fruity Garden - More guaranteed food.                                         ║
+║ ● Sunny Paradise - More monkeys can appear in the same room at once.            ║
+║ ● Abandoned Factory - No monkeys. :(                                            ║
+║ ● Outer Space - Much less rocks in every room.                                  ║
+║ ● Kindergarten - Food eaten here has the same effect on health and sanity,      ║
+║   as eaten outside.                                                             ║
+║ ● American Highschool - Cave is fully mapped on minimap from the start.         ║
+║ ● Icey Dungeon - Every turn you move two spaces in the same direction, which    ║
+║   makes you travel through this cave faster, but hitting rocks is               ║
+║   sometimes inevitable.                                                         ║
+║ ● Santa's Workshop - You may find two item crates instead of one.               ║
+║ ● Power Station - You only see things in room in certain radius from you.       ║
+║ ● Hell On Earth - You can't see minimap at all.                                 ║
+║                                                                                 ║
+║                                                                                 ║
+╚═════════════════════════════════════════════════════════════════════════════════╝

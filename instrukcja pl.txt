@@ -1,0 +1,256 @@
+#############################################################
+# ______                         _     _____      _         #
+# |  _  \                       | |   |_   _|    | |        #
+# | | | |___  ___  ___ ___ _ __ | |_    | | _ __ | |_ ___   #
+# | | | / _ \/ __|/ __/ _ \ '_ \| __|   | || '_ \| __/ _ \  #
+# | |/ /  __/\__ \ (_|  __/ | | | |_   _| || | | | || (_) | #
+# |___/ \___||___/\___\___|_| |_|\__|  \___/_| |_|\__\___/  #
+#         ___  ___          _                               #
+#         |  \/  |         | |                    	    #
+#         | .  . | __ _  __| |_ __   ___  ___ ___ 	    #
+#         | |\/| |/ _` |/ _` | '_ \ / _ \/ __/ __|	    #
+#         | |  | | (_| | (_| | | | |  __/\__ \__ \	    #
+#         \_|  |_/\__,_|\__,_|_| |_|\___||___/___/	    #
+#							    #
+#############################################################
+
+by Jakub Szwast
+
+#######################
+0. WSTĘP
+#######################
+
+Witaj, kilka ważnych spraw zanim przejdziesz do rozgrywki.
+
+WAŻNE!!! PROJEKT URUCHAMIAJ W VISUAL STUDIO POPRZEZ PLIK DescentIntoMadness.sln. KONIECZNE JEST POBRANIE
+KILKU DODATKÓW ABY WSZYSTKO DZIAŁAŁO JAK TRZEBA, PROGRAM SAM SIĘ TYM ZAJMIE.
+
+Jakby coś nie działało do końca, to proszę pisać do mnie gdzieś.
+
+#######################
+1. PRZYGOTOWANIE
+#######################
+
+Ze względu na ograniczenie rozmiaru projektu na UPELu, 
+obecnie masz pobraną grę bez muzyki. Natomiast nie martw się, 
+nie pozwoliłbym Ci rozpocząć bez adekwatnej ścieżki dźwiękowej. 
+Poniżej podrzucam dwa linki do pobrania muzyki - masz prosty wybór:
+
+a) Pobrać muzykę w giga koks jakości (~650MB zip) - dla audiofilów, 
+którym wiaderko z internetem nigdy się nie kończy i wyrobią się z pobraniem 
+do środy.
+
+Link: 
+https://drive.google.com/file/d/1kv-Sa2svtkdjbCQ8xvi1i6TCXyRuzokk/view?usp=sharing
+
+
+b) Pobrać muzykę w dość słabej jakości (<100MB zip) - niezalecane, 
+ale spodziewam się, że niektórzy szanują swój czas oraz łącze. Jednak jeśli tylko 
+masz możliwość to odsyłam do opcji a).
+
+Link:
+https://drive.google.com/file/d/1LEPtDmBsQMyBfMy7IM94Rndw4Ny0YlSC/view?usp=sharing
+
+
+c) Nie pobierać muzyki wcale, ale jeśli jesteś typem osoby, która w ogóle rozważa 
+te opcję, to wiedz, że specjalnie dla Ciebie kompresowałem te pliki muzyczne, 
+z bólem serca słuchając jak spada ich jakość, ale absolutnie nie jest to próba 
+jakiejkolwiek manipulacji. No chyba, że z jakiegoś powodu po prostu nie lubisz 
+muzyki w grach, to śmiało, miłego delektowania się ciszą.
+
+Link: nie ma, chyba że jednak zmienił*ś zdanie, to wyżej są dwa
+
+#######################
+2. INSTALACJA MUZYKI
+#######################
+
+Jeśli zdecydował*ś się nie pobierać muzyki (szkoda :c ), to możesz całkowicie 
+pominąć ten krok.
+
+Po rozpakowaniu pobranego archiwum wystarczy wrzucić wszystkie pliki muzyczne .wav do lokalizacji:
+<ten folder>\projektGra\bin\Debug\netcoreapp3.1\assets\music
+
+No i tyle. Cała filozofia.
+
+#######################
+3. MINI TUTORIAL
+#######################
+
+Generalnie większość rzeczy jest chyba rozpisanych w grze pod odpowiednim klawiszem, ale z racji, 
+iż brakło czasu na tłumaczenie gry na polski, poniżej szybkie podsumowanie o co chodzi i jak grać, 
+jeśli nie przepadasz za czytaniem po angielsku, albo po prostu wolisz ogarnąć to tutaj. Jak w którymś
+momencie odechce Ci się już czytać no to spoko, właściwie możesz wracać do tego pliku kiedy chcesz, 
+gdy tylko nasuną Ci się jakieś pytania (a mam nadzieję, że na wszystkie tu odpowiem).
+
+Streszczając fabułę: wybrał*ś się w góry w celach wypoczynkowych (w Góry Szaleństwa btw, niezły pomysł). 
+No i wszystko byłoby gitez gdyby nie fakt, że po pewnym czasie weszł*ś w jakąś niefajną mgłę i nawdychawszy 
+się jej zaczęło Ci się trochę mieszać w głowie. Od tej pory widzisz całą masę dziwnych rzeczy, a Twoim celem 
+jest zejście z tych gór bezpiecznie i przed całkowitą utratą zdrowego rozsądku.
+
+Tak wygląda przeciętny ekran wyboru poziomu:
+╔═══════════════════════════════════════════════════╦═════════════════════════════╗
+║                                                   ║          Inventory          ║
+║                         ┌─────∆─────┐             ║                             ║
+║                         │           │             ║ Here you will find any      ║
+║             ┌─────▲─────┤           │             ║ items, that you find, while ║
+║             │           └─────∆─────┼─────∆─────  ║ descending through          ║
+║             │                       │             ║ the caves                   ║
+║       ▼     │                       │             ║                             ║
+║       ∆─────┼─────▲───────────∆─────┘             ║ Legend:                     ║
+║       ⌂     │                                     ║ ⌂ - You are here            ║
+║             │                                     ║ ▼ - Points at selected cave ║
+║             │           ┌─────∆─────┬─────∆─────  ║ ▲ - Available cave          ║
+║             └─────▲─────┤           │             ║ ∆ - Unavailable cave        ║
+║                         │           │             ║ ─ - Paths between caves     ║
+║                         └─────∆─────┘             ║                             ║
+║                                                   ║ ♥ - HP level                ║
+╠═══════════════════════════════════════════════════╣ ☻ - Sanity level            ║
+║  ♥ ■■■■■■■■■■■■■■■■■■■■  500/500   Food: 1        ║                             ║
+║  ☻ ■■■■■■■■■■■■■■■■■■■■  500/500   C to consume   ║ Press any key to proceed    ║
+╠═══════════════════════════════════════════════════╣                             ║
+║  Cave type                                        ║                             ║
+║  Height: XXXm     Details:                        ║                             ║
+║  (You want to                                     ║                             ║
+║   get to 0m)      Describes level details briefly ║                             ║
+║                                                   ║                             ║
+╚═══════════════════════════════════════════════════╩═════════════════════════════╝
+Legenda jest chyba całkiem zrozumiała, ogółem mapa idzie od lewej do prawej i jest losowo wygenerowana, 
+dzięki czemu czysto teoretycznie każda rozgrywka jest troszkę inna. Trójkąciki to jaskinie, 
+a Ty przechodząc przez każdą następną schodzisz coraz bardziej z gór. Na puste trójkąciki wejść nie możesz, 
+przez jaskinie przechodzi się po kolei. Na dole rozpisane są informacje o danej jaskini (zaznaczonej ▼)
+i Enterem można do nich wejść.
+
+Jaskinia składa się z zestawu losowo wygenerowanych pomieszczeń. Poza eksploracją i zbieraniem po drodze różnych 
+rzeczy ostatecznie musisz znaleźć z niej wyjście. Tak wygląda przykładowy pokój w jaskini:
+╔═══════════════════════════════════════════════════╦═════════════════════════════╗
+║                                                   ║          Inventory          ║
+║   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓   ║                             ║
+║   ▓▒ ▒▒▒     ▒     ▒    ▒▒ ▒▒  ▓   ▓          ▓   ║ Here you can see an example ║
+║   ▓  ▒ ▒  ▒      ▒▒ ▒   ▒ ▒    ▓   ▓          ▓   ║ level screen. On the left   ║
+║   ▓ ▒   ▒   ▒@       ▒  ▒▒▒▒▒▒ ▓   ▓     █    ▓   ║ you will see the current    ║
+║   ▓▒   ▒▒▒      ▒▒    ▒       ▒▓   ▓     ░    ▓   ║ room, and on the right you  ║
+║   ▓      ▒ ▒▒    Ω       ▒ ▒   ▓   ▓     ░    ▓   ║ can see a minimap of cave's ║
+║   ▓ ▒▒      ▒      ▒▒    ▒  ▒  ▓   ▓     ░    ▓   ║ layout.                     ║
+║   ▓       ▒ ▒   ▒     ▒        ▓   ▓          ▓   ║                             ║
+║   ▓▒  ▒ ▒  ▒♣▒▒    ℗ ▒     ▒   ▓   ▓          ▓   ║ Level legend:               ║
+║   ▓    ▒ ▒▒▒ ▒ ▒ ▒  ▒▒▒  ▒▒  ▒ ▓   ▓          ▓   ║ ℗ - Player (you)            ║
+║   ▓▒                ▒ ▒ ▒  ◙   ▓   ▓          ▓   ║ ♣ - Food                    ║
+║   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓══▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓   ║ ◙ - Item crate              ║
+║                                                   ║ Ω - Exit                    ║
+║                                                   ║ ═ - Door                    ║
+╠═══════════════════════════════════════════════════╣ ▒ - Rock (you can't walk    ║
+║  ♥ ■■■■■■■■■■■■■■■■■■■■  300/500   Food: 0        ║ through those)              ║
+║  ☻ ■■■■■■■■■■■■■■■■■■■■  458/500                  ║ @ - Monkey                  ║
+╠═══════════════════════════════════════════════════╣ Minimap legend:             ║
+║ Here you will see various informations about what ║ █ - Current room            ║
+║ happens in the game                               ║ ░ - Other rooms             ║
+║                                                   ║ Starting room will be yellow║
+║                                                   ║                             ║
+║                                                   ║ Press any key to proceed    ║
+╚═══════════════════════════════════════════════════╩═════════════════════════════╝
+Ponownie legenda raczej mówi sama za siebie, ℗ to gracz, ruszasz się strzałkami, omijasz kamienie (▒), każdy 
+ruch to jedna tura, podczas której ruszają się też małpy (@, literalnie małpy cnie). Ω to jedyne wyjście z jaskini,
+najczęściej umieszczone w najbardziej oddalonym pokoju w linii prostej od pokoju startowego. Po prawej jest minimapa, 
+którą odkrywasz wchodząc do innych pokojów. Pokój startowy oznaczony jest na niej na żółto, a pokój w którym się znajdujesz 
+oznaczony jest pełnym prostokątem. Żeby wejść do innego pokoju po prostu wchodzisz w drzwi.
+
+Z małpami można walczyć, po próbie wejścia z nią na jedno pole. Pojawi się komunikat, a po około dwóch sekundach 
+obok niego pojawi się na czerwono klawisz W, S, A lub D. Masz pół sekundy na kliknięcie odpowiedniego klawisza. 
+Jak Ci się uda, małpa znika i jest szansa że wypadnie z niej jedzenie (Jedzenie?? Zaraz wyjaśnię). 
+Jeśli nie zdążysz albo w ogóle naciśniesz zły klawisz, tracisz zdrowie i możliwe, że to małpa Ciebie okradnie.
+
+No ale właśnie. Jedzenie, zdrowie i ten dziwny pasek na dole z uśmieszkiem obok, co to niby ma być?
+Już tłumaczę. Zdrowie raczej nie jest niczym skomplikowanym, spadnie do zera - no i koniec Twoich przygód. 
+Możesz zapobiec okrutnej śmierci poprzez między innymi wcinanie jedzenia (ikonka taka o: ♣). Kliknięcie C 
+na ekranie wyboru poziomu albo wewnątrz jaskini uleczy Ci trochę zdrowia i tej drugiej statystyki poniżej, 
+którą zaraz omówię. Ważne! Jedzenie poza jaskiniami (na ekranie wyboru poziomu) ma dwa razy większy efekt 
+na statystykach, więc opłaca się raczej spożywać posiłek na zewnątrz (przyjemniejsza atmosfera, itp. itd.). 
+Zdrowie można stracić jak już wspomniałem przegrywając pojedynek z małpą, wbiegając w ścianę oraz gdy spadnie
+Ci do zera zdrowie psychiczne (ZDROWIE PSYCHICZNE??? Momencik, daj mi skończyć.) WAŻNE: Wchodząc do poziomu 
+masz przed sobą długą drogę, musisz więc posiadać przynajmniej jedno jedzenie. W przeciwnym wypadku stracisz 
+sporo zdrowia, z powodu głodówki. Mówię to po to, abyś łapczywie nie zjadł(a) całego jedzenia bez zostawiania 
+chociaż jednego na podróż do następnego poziomu.
+
+Teraz kwestia zdrowia psychicznego. Każdy ruch (nawet wejście w ściane, ale po co miał(a)byś wchodzić w ścianę?) 
+powoduje spadek zdrowia psychicznego o 1 (zwariować idzie w tych jaskiniach, naprawdę). Można je polepszyć, 
+tak jak już powiedziałem, przez jedzenie. Jeśli zdrowie psychiczne spadnie do zera, to co każdy ruch (co turę)
+Twoje zdrowie (zwykłe, fizyczne, ten górny pasek) zacznie spadać ORAZ nastąpi trwały uszczerbek na zdrowiu w postaci 
+zmniejszenia maksymalnej ilości zdrowia i zdrowia psychicznego. Będzie się to dziać, dopóki nie zregenerujesz zdrowia 
+psychicznego, np. jedzeniem. Jak tego nie zrobisz i zdrowie zwykłe spadnie do zera - śmierć.
+
+Można jeszcze znaleźć takie (-> ◙) skrzynki z przedmiotami, jedna na jaskinie, ale o tym więcej poniżej.
+
+#######################
+4. JASKINIE
+#######################
+
+Jaskinie mają swój motyw przewodni, każdy ma jakieś specjalne zasady modyfikujące rozgrywkę, na ekranie wyboru poziomu 
+masz podgląd jakiego typu jest dana jaskinia. W razie jakbyś się zastanawiał(a) co oznacza jakiś motyw i nie lubisz 
+niespodzianek, mam dla Ciebie mini ściągę:
+
+ ● Totally Regular Mountain Cave - Zwykła jaskinia, brak specjalnych zasad.                              
+ ● Candy Cave - Cukierkowa jaskinia, znalezione jedzenie to cukierki, którym nie możesz się oprzeć, więc zjadasz je 
+   od razu, co skutecznie uniemożliwia gromadzenie jedzenia na później.
+ ● Mother Russia Land - Matka Rosja, lokalsi upijają Cię, przez co klawisze sterowania są odwrócone 
+   (daję w lewo, jadę w prawo ~ Zygzak McQueen). Nie zadawaj pytań, to wszystko i tak się dzieje tylko w Twojej głowie.
+ ● Ogre Swamp - Ogrze Bagna, nie ma kamieni, za to są grzybki. Możesz przez nie przejść, ale zatrujesz się i stracisz 
+   trochę zdrowia                          
+ ● African Desert - Afrykańska pustynia, jest szansa, że nie znajdziesz tu wcale jedzenia.           
+ ● Haunted Peak - Nawiedzony szczyt, duchy, strach i w ogóle, zdrowie psychiczne spada dwa razy szybciej. 
+ ● Fruity Garden - Owocowy ogród, z reguły jest tu więcej jedzenia niż w innych jaskiniach.                                         
+ ● Sunny Paradise - Słoneczny raj, małpy sobie tu czilują w większej ilości niż zwykle.
+ ● Abandoned Factory - Opuszczona fabryka, tu z kolei małp nie ma wcale niestety.                                           
+ ● Outer Space - Przestrzeń kosmiczna, znacznie mniej kamieni, czyli znacznie mniej okazji na rozwalenie sobie na nich głowy.                              
+ ● Kindergarten - Przedszkole, atmosfera tak milusia i bezpieczna, że jedzenie odnawia tutaj tyle samo zdrowia i zdrowia 
+   psychicznego co na zewnątrz.                                    
+ ● American Highschool - Amerykańskie liceum, plan ewakuacji na każdej ścianie, od początku widać cały układ pokojów jaskini.         
+ ● Icey Dungeon - Lodowe lochy, ślizgasz się, jedna tura to ruch o dwa pola, szybciej przechodzi się przez jaskinię, 
+   ale łatwiej się rozwalić na kamieniach, więc zalecana ostrożność (małpy też się ślizgają jakby ktoś pytał).                                                        
+ ● Santa's Workshop - Warsztat św. Mikołaja, można tu znaleźć aż dwie skrzynki z przedmiotami.              
+ ● Power Station - Elektrownia, w której nie ma prądu, więc łazisz po ciemku i widzisz rzeczy w pokoju tylko na pewną 
+   odległość od siebie.
+ ● Hell On Earth - Piekło na Ziemi, minimapa jest wyłączona, powodzenia w szukaniu wyjścia.                               
+                                                      
+
+#######################
+5. PRZEDMIOTY
+#######################
+
+Przedmioty są pasywne, po podniesieniu skrzynki otrzymujesz losowy z możliwych (niektóre możesz dostać więcej niż raz).
+Ich efekty są tajemnicą, często działają na konkretnych typach jaskiń, ale jak nie chcesz samodzielnie tego rozszyfrowywać, 
+to tutaj też znajdziesz ściągę:
+
+ ● Food Pack - Paczka jedzenia, +3 jedzenia. Proste.                                               
+ ● Vitamins - Witaminki, witaminki, dla chłopczyka i dziewczynki, zwiększają maksymalne zdrówko o 100.                                                      
+ ● Medication - Leki, zwiększają maksymalne zdrowie psychiczne o 100.                                               
+ ● Compass - Kompas, pokazuje na minimapie pokój z wyjściem na czerwono, nawet jak jeszcze go nie odkrył*ś.               
+ ● Cave Map - Mapa jaskini, od początku widzisz cały układ pomieszczeń w jaskiniach.                          
+ ● Coffee - Kawusia, polepsza czas reakcji, dzięki niej masz całą sekundę na kliknięcie klawisza w walce z małpą.  
+ ● Spongy Gloves - Gąbczaste rękawice, wpadanie w kamienie już Cię nie rani (ale nadal tracisz zdrowie psychiczne, niewarto).                                                        
+ ● Gas Mask - Maska gazowa, grzyby na ogrzych bagnach już nie robią Ci krzywdy, więc możesz przez nie przebiegać do woli.     
+ ● Holy Cross - Święty krzyż, odstrasza siły nieczyste na nawiedzonych szczytach, dzięki czemu tracisz normalną ilość zdrowia 
+   psychicznego.                   
+ ● Spike Boots - Buty z kolcami, zapobiegają ślizganiu się w lodowych lochach.                            
+ ● Flashlight - Latarka, widzisz wszystko w elektrowniach normalnie, tak jakby normalnie tam był prąd.                
+ ● Liquorice - Lukrecja, nigdy nie zjesz już cukierków w cukierkowych jaskiniach, bo jest tak traumatycznie obrzydliwa.                                                             
+ ● Vomit Pills - Pigułki "na zwrot", oczyszczają organizm z procentów na ziemiach Matki Rosji, dzięki czemu chodzisz normalnie.                                                      
+ ● Rotten Bananas - Zgniłe banany, nie możesz ich zjeść, ale przyciągasz małpy, w związku z czym będziesz ich znajdować więcej 
+   (nawet zaczną się pojawiać w opuszczonych fabrykach, juhu)                           
+ ● Shovel - Łopata, odkopuje jedzenie na afrykańskich pustyniach, dzięki czemu zawsze trafisz na co najmniej jedno.                 
+ ● Devil Deal - Pakt z diabłem, pokazuje Ci minimapę w Piekle na Ziemi, ale tracisz tam podwójną ilość zdrowia psychicznego 
+   co turę.
+
+#######################
+6. KONIEC
+#######################
+
+Powodzenia, może się przydać
+:>
+
+
+
+
+
+
+
+

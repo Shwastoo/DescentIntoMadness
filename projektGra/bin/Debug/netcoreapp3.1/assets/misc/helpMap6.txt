@@ -1,0 +1,26 @@
+﻿╔═══════════════════════════════════════════════════╦═════════════════════════════╗
+║                                                   ║          Inventory          ║
+║   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓   ║                             ║
+║   ▓▒ ▒▒▒     ▒     ▒    ▒▒ ▒▒  ▓   ▓          ▓   ║ Fighting monkeys:           ║
+║   ▓  ▒ ▒  ▒      ▒▒ ▒   ▒ ▒    ▓   ▓          ▓   ║ When you walk into a monkey ║
+║   ▓ ▒   ▒   ▒@       ▒  ▒▒▒▒▒▒ ▓   ▓     █    ▓   ║ you will see an information ║
+║   ▓▒   ▒▒▒      ▒▒    ▒       ▒▓   ▓     ░    ▓   ║ about that on the bottom of ║
+║   ▓      ▒ ▒▒    Ω       ▒ ▒   ▓   ▓     ░    ▓   ║ the screen. After a while   ║
+║   ▓ ▒▒      ▒      ▒▒    ▒  ▒  ▓   ▓     ░    ▓   ║ you will see a letter       ║
+║   ▓       ▒ ▒   ▒     ▒        ▓   ▓          ▓   ║ (W, S, A or D). You have to ║
+║   ▓▒  ▒ ▒  ▒♣▒▒    ℗ ▒     ▒   ▓   ▓          ▓   ║ quickly press the correct   ║
+║   ▓    ▒ ▒▒▒ ▒ ▒ ▒  ▒▒▒  ▒▒  ▒ ▓   ▓          ▓   ║ button on your keyboard.    ║
+║   ▓▒                ▒ ▒ ▒  ◙   ▓   ▓          ▓   ║ If you press it quickly     ║
+║   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓══▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓   ║ enough you will neutralize  ║
+║                                                   ║ the monkey, and maybe get   ║
+║                                                   ║ food. However if you take   ║
+╠═══════════════════════════════════════════════════╣ too much time or press      ║
+║  ♥ ■■■■■■■■■■■■■■■■■■■■  300/500   Food: 0        ║ wrong button, you will lose ║
+║  ☻ ■■■■■■■■■■■■■■■■■■■■  458/500                  ║ health, and some of your    ║
+╠═══════════════════════════════════════════════════╣ food may end up stolen.     ║
+║ Here you will see various informations about what ║ Monkeys move every turn.    ║
+║ happens in the game                               ║                             ║
+║                                                   ║ Press any key to proceed    ║
+║                                                   ║                             ║
+║                                                   ║                             ║
+╚═══════════════════════════════════════════════════╩═════════════════════════════╝

@@ -1,0 +1,26 @@
+﻿╔═══════════════════════════════════════════════════╦═════════════════════════════╗
+║                                                   ║          Inventory          ║
+║   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓   ║                             ║
+║   ▓▒ ▒▒▒     ▒     ▒    ▒▒ ▒▒  ▓   ▓          ▓   ║ Here you can see an example ║
+║   ▓  ▒ ▒  ▒      ▒▒ ▒   ▒ ▒    ▓   ▓          ▓   ║ level screen. On the left   ║
+║   ▓ ▒   ▒   ▒@       ▒  ▒▒▒▒▒▒ ▓   ▓     █    ▓   ║ you will see the current    ║
+║   ▓▒   ▒▒▒      ▒▒    ▒       ▒▓   ▓     ░    ▓   ║ room, and on the right you  ║
+║   ▓      ▒ ▒▒    Ω       ▒ ▒   ▓   ▓     ░    ▓   ║ can see a minimap of cave's ║
+║   ▓ ▒▒      ▒      ▒▒    ▒  ▒  ▓   ▓     ░    ▓   ║ layout.                     ║
+║   ▓       ▒ ▒   ▒     ▒        ▓   ▓          ▓   ║                             ║
+║   ▓▒  ▒ ▒  ▒♣▒▒    ℗ ▒     ▒   ▓   ▓          ▓   ║ Level legend:               ║
+║   ▓    ▒ ▒▒▒ ▒ ▒ ▒  ▒▒▒  ▒▒  ▒ ▓   ▓          ▓   ║ ℗ - Player (you)            ║
+║   ▓▒                ▒ ▒ ▒  ◙   ▓   ▓          ▓   ║ ♣ - Food                    ║
+║   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓══▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓   ║ ◙ - Item crate              ║
+║                                                   ║ Ω - Exit                    ║
+║                                                   ║ ═ - Door                    ║
+╠═══════════════════════════════════════════════════╣ ▒ - Rock (you can't walk    ║
+║  ♥ ■■■■■■■■■■■■■■■■■■■■  300/500   Food: 0        ║ through those)              ║
+║  ☻ ■■■■■■■■■■■■■■■■■■■■  458/500                  ║ @ - Monkey                  ║
+╠═══════════════════════════════════════════════════╣ Minimap legend:             ║
+║ Here you will see various informations about what ║ █ - Current room            ║
+║ happens in the game                               ║ ░ - Other rooms             ║
+║                                                   ║ Starting room will be yellow║
+║                                                   ║                             ║
+║                                                   ║ Press any key to proceed    ║
+╚═══════════════════════════════════════════════════╩═════════════════════════════╝
